@@ -3,8 +3,8 @@ type: gradle
 useWrapper: false
 resolver:
   repo: gradle-dev
-  serverID: artifactory-eu
+  serverID: artifactory_eu
 deployer:
   repo: gradle-dev-local
-  serverID: artifactory-eu
+  serverID: artifactory_eu
   deployMavenDescriptors: true
