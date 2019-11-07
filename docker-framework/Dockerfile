@@ -1,4 +1,4 @@
-FROM docker.artifactory/ubuntu:14.04
+FROM docker.artifactory/openjdk:11-jdk
 
 COPY tomcat/apache-tomcat-8.0.32.tar.gz /home/exec/tomcat
 RUN cd /home/exec/ && tar -xvf /home/exec/tomcat/apache-tomcat-8.0.32.tar.gz
