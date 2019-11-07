@@ -1,6 +1,4 @@
-FROM docker.artifactory/docker-framework:latest
-
-MAINTAINER Jainish Shah jainishs@jfrog.com
+FROM docker.artifactory/docker-framework:5
 
 RUN rm -rf /home/exec/apache-tomcat-8.0.32/webapps/*
 
