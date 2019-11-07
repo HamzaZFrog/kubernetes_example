@@ -1,6 +1,6 @@
 FROM docker.artifactory/openjdk:11-jdk
 
-COPY tomcat/apache-tomcat-8.tar.gz /home/exec/tomcat
+COPY tomcat/apache-tomcat-8.0.32.tar.gz /home/exec/tomcat
 RUN cd /home/exec/ && tar -xvf /home/exec/tomcat/apache-tomcat-8.0.32.tar.gz
 ADD tomcat/server.xml /home/exec/apache-tomcat-8.0.32/conf/server.xml
 ENV CATALINA_HOME=/home/exec/apache-tomcat-8.0.32
