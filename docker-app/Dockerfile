@@ -1,4 +1,4 @@
-FROM docker.artifactory/jfrog-docker-framework:5
+FROM docker.artifactory/jfrog-docker-framework:latest
 
 RUN rm -rf /home/exec/apache-tomcat-8.0.32/webapps/*
 
